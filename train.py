@@ -16,7 +16,6 @@ B = 64              # batch size
 T = max_len + 2     # context length, including '+' and '='
 embd_dim = 16          # embedding dim
 # head_size = 8       # attention head size
-eval_iters = 100
 
 def get_batch():
     batch = []
